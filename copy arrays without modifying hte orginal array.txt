@@ -1,0 +1,24 @@
+/copy the following array into another array without modifying the original array
+3).array=[a,b,c,d,e]
+
+
+
+this doesnto copy
+let array=array2;
+
+
+//these are some of hte old ways you can do this
+
+
+const array = Array.from(array);
+const array2 = array.slice();
+
+
+Es6
+
+const array2 = [...array];
+//this is called the spread operator.it takes an iterable and expands it into individual\
+elements.It's commonly used to make shallow copies of arrays
+
+
+
